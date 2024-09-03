@@ -11,6 +11,7 @@ const config: Config = {
       "laptop": "1024px"
     },
     colors: {
+      transparent: 'transparent',
       foreground: {
         amber: colors.amber['900'],
         light: {
