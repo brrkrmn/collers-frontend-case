@@ -7,6 +7,9 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    screens: {
+      "laptop": "1024px"
+    },
     colors: {
       foreground: {
         amber: colors.amber['900'],
