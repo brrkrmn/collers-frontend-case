@@ -8,7 +8,8 @@ const config: Config = {
   ],
   theme: {
     screens: {
-      "laptop": "1024px"
+      "laptop": "1024px",
+      "tablet": "640px"
     },
     colors: {
       transparent: 'transparent',
