@@ -1,4 +1,5 @@
 import { CardSection } from "@/components/CardSection";
+import { Footer } from "@/components/Footer";
 import { HeroSection } from "@/components/HeroSection";
 import { Navbar } from "@/components/NavBar";
 
@@ -8,6 +9,7 @@ export default function Home() {
       <Navbar />
       <HeroSection />
       <CardSection />
+      <Footer />
     </main>
   );
 }

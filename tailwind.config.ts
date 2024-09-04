@@ -13,6 +13,7 @@ const config: Config = {
     },
     colors: {
       transparent: 'transparent',
+      divider: colors.slate['700'],
       foreground: {
         amber: colors.amber['900'],
         light: {
