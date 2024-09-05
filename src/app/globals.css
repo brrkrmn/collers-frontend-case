@@ -6,6 +6,13 @@
   .text-balance {
     text-wrap: balance;
   }
+  .hidden-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .hidden-scrollbar {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+  }
 }
 
 .background-map {
