@@ -1,7 +1,6 @@
 import Image from "next/image";
 import { LuShoppingCart } from "react-icons/lu";
-import BacklightsVertical from '../../../public/images/backlights-vertical.png';
-import Backlights from '../../../public/images/backlights.png';
+import Backlights from '../../../public/icons/card/backlights.svg';
 import { Button } from "../Button";
 import { cardSectionContent } from "./CardSection.constants";
 
@@ -14,8 +13,7 @@ const CardSection = () => {
         <Button variant="outlined" className="h-14 text-xl px-10 font-normal">Sign up now</Button>
       </div>
       <div className="relative flex flex-col tablet:flex-row items-center justify-center bg-backlights gap-6 laptop:gap-12">
-        <Image src={Backlights} alt="backlights" className="hidden tablet:block absolute scale-[1.1]" />
-        <Image src={BacklightsVertical} alt="backlights" className="tablet:hidden absolute object-cover scale-[1.1]" />
+        <Image src={Backlights} alt="backlights" className="rotate-90 object-cover tablet:rotate-0 absolute scale-[2] tablet:scale-[1.05]" />
         {cardSectionContent.map((content, index) => (
           <div key={index} className="z-10 bg-background-dark flex flex-col rounded-md border-[1px] overflow-hidden border-background-dark shadow-light">
             <Image src={content.image} alt="card" className="w-full" />

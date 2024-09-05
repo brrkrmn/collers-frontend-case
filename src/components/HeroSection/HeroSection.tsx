@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Play from '../../../public/icons/hero/play.svg';
-import Sneaker from '../../../public/images/hero-sneaker.png';
+import Sneaker from '../../../public/images/hero/sneaker.png';
 import { Button } from "../Button";
 import { cardContents } from "./HeroSection.constants";
 import { CardIcon } from "./components/CardIcon";

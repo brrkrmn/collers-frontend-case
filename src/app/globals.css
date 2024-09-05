@@ -9,7 +9,7 @@
 }
 
 .background-map {
-  background: url('../../public/images/map.png') no-repeat scroll center transparent;
+  background: url('../../public/icons/map/map.svg') no-repeat scroll center transparent;
 }
 
 .background-wave {
