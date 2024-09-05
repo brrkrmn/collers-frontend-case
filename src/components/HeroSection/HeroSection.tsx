@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { LuPlayCircle } from "react-icons/lu";
+import Play from '../../../public/icons/hero/play.svg';
 import Sneaker from '../../../public/images/hero-sneaker.png';
 import { Button } from "../Button";
 import { cardContents } from "./HeroSection.constants";
@@ -17,7 +17,7 @@ const HeroSection = () => {
               Sign up now
             </Button>
             <Button color="foreground-amber" className="flex items-center justify-center gap-2">
-              <LuPlayCircle className="text-xl" />
+              <Image src={Play} alt="Play Icon" className="text-xl" />
               <p>
                 Watch Demo
               </p>

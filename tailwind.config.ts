@@ -36,11 +36,15 @@ const config: Config = {
         neutral: colors.amber['200'],
         dark: colors.amber['400']
       },
-      green: colors.green['700'],
+      green: {
+        light: colors.green['500'],
+        DEFAULT: colors.green['700']
+      },
       pink: colors.pink['700'],
       blue: colors.sky['700'],
       purple: colors.fuchsia['700'],
-      amber: colors.amber['900']
+      amber: colors.amber['900'],
+      rose: colors.rose['600'],
     },
     extend: {
       backgroundImage: {
@@ -55,6 +59,7 @@ const config: Config = {
       },
       boxShadow: {
         'light': '0px 0px 15px 0px #FFFFFF12, 0px 25px 50px -12px #FFFFFF40',
+        'xs': '0px 0px 4px 0px #00000012, 0px 4px 6px -1px #0000001A',
         'sm': '0px 0px 10px 0px #00000012, 0px 20px 25px -5px #0000001A',
         'md': '0px 0px 6px 0px #00000012, 0px 10px 15px -3px #0000001A',
         'lg': '0px 0px 15px 0px #00000012, 0px 25px 50px -12px #00000040'

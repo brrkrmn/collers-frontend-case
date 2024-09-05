@@ -17,7 +17,7 @@ const CardSection = () => {
         <Image src={Backlights} alt="backlights" className="hidden tablet:block absolute scale-[1.1]" />
         <Image src={BacklightsVertical} alt="backlights" className="tablet:hidden absolute object-cover scale-[1.1]" />
         {cardSectionContent.map((content, index) => (
-          <div className="z-10 bg-background-dark flex flex-col rounded-md border-[1px] overflow-hidden border-background-dark shadow-light">
+          <div key={index} className="z-10 bg-background-dark flex flex-col rounded-md border-[1px] overflow-hidden border-background-dark shadow-light">
             <Image src={content.image} alt="card" className="w-full" />
             <div className="flex flex-col items-center justify-center p-8 gap-4">
               <h5 className="text-foreground-light text-2xl font-medium self-start">{content.title}</h5>

@@ -1,9 +1,9 @@
-import RectangleBlue from '../../../public/icons/rectangle-blue.png'
-import RectangleGreen from '../../../public/icons/rectangle-green.png'
-import Rectanglepink from '../../../public/icons/rectangle-pink.png'
-import Trophy from '../../../public/icons/trophy.png'
-import Tunnel from '../../../public/icons/tunnel.png'
-import Tv from '../../../public/icons/tv.png'
+import TrophyBackground from '../../../public/icons/hero/trophy-background.svg'
+import Trophy from '../../../public/icons/hero/trophy.svg'
+import TunnelBackground from '../../../public/icons/hero/tunnel-background.svg'
+import Tunnel from '../../../public/icons/hero/tunnel.svg'
+import TvBackground from '../../../public/icons/hero/tv-background.svg'
+import Tv from '../../../public/icons/hero/tv.svg'
 
 export const cardContents: HeroCard[] = [
   {
@@ -13,7 +13,7 @@ export const cardContents: HeroCard[] = [
       name: 'trophy',
       alt: "Trophy",
       iconSrc: Trophy,
-      bgSrc: RectangleBlue,
+      bgSrc: TrophyBackground,
       className: "top-0 -right-2 w-[36px] h-[36px]"
     }
   },
@@ -24,7 +24,7 @@ export const cardContents: HeroCard[] = [
       name: 'tunnel',
       alt: "Tunnel",
       iconSrc: Tunnel,
-      bgSrc: RectangleGreen,
+      bgSrc: TunnelBackground,
       className: "top-0 right-0 w-10 h-10"
     }
   },
@@ -35,7 +35,7 @@ export const cardContents: HeroCard[] = [
       name: "tv",
       alt: "Tv",
       iconSrc: Tv,
-      bgSrc: Rectanglepink,
+      bgSrc: TvBackground,
       className: "top-1 -right-5 w-11 h-11"
     }
   }
