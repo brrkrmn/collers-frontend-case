@@ -1,8 +1,8 @@
 import Image from "next/image";
 
-const DesktopScreen = ({image}: {image: any}) => {
+const DesktopScreen = ({ image, className }: { image: any;  className?: string}) => {
   return (
-    <div className="max-w-[759px] max-h-[440px] w-full h-auto aspect-[4/3] rounded-lg bg-background-light flex flex-col overflow-hidden p-1 shadow-lg">
+    <div className={`max-w-[759px] max-h-[440px] w-full h-auto aspect-[4/3] rounded-lg bg-background-light flex flex-col overflow-hidden p-1 shadow-lg ${className}`}>
       <div className="w-full h-[30px] flex items-center justify-start px-3 gap-[7px]">
         <span className="w-[8px] h-[8px] rounded-full bg-rose"></span>
         <span className="w-[8px] h-[8px] rounded-full bg-yellow-dark"></span>
