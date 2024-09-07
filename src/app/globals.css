@@ -26,3 +26,11 @@
 .background-hero {
   background: url('../../public/icons/hero/background.svg') bottom right no-repeat;
 }
+
+.background-backlights {
+  background: url('../../public/icons/card/backlights.svg') center no-repeat
+}
+
+.background-backlights-vertical {
+  background: url('../../public/icons/card/backlights-vertical.svg') center no-repeat
+}
