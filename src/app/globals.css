@@ -16,7 +16,7 @@
 }
 
 .background-map {
-  background: url('../../public/icons/map/map.svg') no-repeat scroll center transparent;
+  background: url('../../public/icons/map/map.svg') no-repeat scroll center, url('../../public/icons/map/ellipses.svg') center no-repeat;
 }
 
 .background-wave {

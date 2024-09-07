@@ -13,8 +13,8 @@ const GrowSection = () => {
           <p className="text-[16px] laptop:text-[18px] font-normal text-center laptop:text-start">Enim neque massa porta adipiscing elit. Sem libero id faucibus nibh amet dictum pellentesque sed. Eu non turpis risus odio sapien, fames sit rhoncus.
           Nec magna sed interdum sit purus tellus. Et volutpat proin neque placerat at bibendum quam tellus.</p>
         </div>
-        <div className="flex flex-col laptop:flex-row gap-8 laptop:gap-[80px] items-start justify-between">
-          <div className="">
+        <div className="hidden-scrollbar overflow-visible flex flex-col laptop:flex-row gap-8 laptop:gap-[80px] items-start justify-between">
+          <div className="overflow-x-scroll">
             <Tabs />
           </div>
           <div className="flex relative w-full scale-[0.5] laptop:scale-[1]">
