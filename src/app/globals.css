@@ -20,7 +20,7 @@
 }
 
 .background-wave {
-  background: url('../../public/icons/grow/wave-1.svg') bottom right no-repeat, url('../../public/icons/grow/wave-2.svg') bottom right no-repeat, url('../../public/icons/grow/wave-3.svg') bottom right no-repeat;
+  background: url('../../public/icons/grow/wave-1.svg') bottom center no-repeat, url('../../public/icons/grow/wave-2.svg') bottom center no-repeat, url('../../public/icons/grow/wave-3.svg') bottom center no-repeat;
 }
 
 .background-hero {

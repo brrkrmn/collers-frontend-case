@@ -1,9 +1,12 @@
 import Image from "next/image"
+import { forwardRef } from "react"
 import { sliderContent } from "./Slider.constants"
 
-const Slider = () => {
+// eslint-disable-next-line react/display-name
+const Slider = forwardRef((_props, ref) => {
   return (
-    <div className="pb-10 px-6 tablet:px-10 laptop:px-20 w-full overflow-x-scroll hidden-scrollbar flex items-center justify-start gap-4 laptop:gap-6">
+    // @ts-ignore
+    <div ref={ref} className="pb-10 px-6 tablet:px-10 laptop:px-20 w-full overflow-x-scroll hidden-scrollbar flex items-center justify-start gap-4 laptop:gap-6">
       {sliderContent.map(content => (
         <div key={content.title} className="px-6 laptop:px-8 py-8 laptop:py-12 flex flex-col items-start justify-between gap-4 laptop:gap-9 min-w-[319px] laptop:min-w-[384px] h-[296px] laptop:h-[430px] bg-background-light rounded-lg shadow-md">
           <div className="flex items-center justify-start gap-2">
@@ -24,6 +27,6 @@ const Slider = () => {
       ))}
     </div>
   )
-}
+})
 
 export default Slider
