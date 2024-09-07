@@ -22,3 +22,7 @@
 .background-wave {
   background: url('../../public/icons/grow/wave-1.svg') bottom right no-repeat, url('../../public/icons/grow/wave-2.svg') bottom right no-repeat, url('../../public/icons/grow/wave-3.svg') bottom right no-repeat;
 }
+
+.background-hero {
+  background: url('../../public/icons/hero/background.svg') bottom right no-repeat;
+}
